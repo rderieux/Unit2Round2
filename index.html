@@ -3,78 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./index.js"></script>
+    <script src="functions.js" defer></script>
     <title>Document</title>
   </head>
-  <body>
-    <script>
-      let message =
-        login == "Employee"
-          ? "Hello"
-          : login == "Director"
-          ? "Greetings"
-          : login == ""
-          ? "No login"
-          : "";
-
-      if (age >= 14 || age <= 90) {
-        return false;
-      } else {
-        return true;
-      }
-
-      if (age >= 14 || age <= 90);
-      if (!(age >= 14 && age <= 90));
-
-      let user = prompt("Who's there?", "");
-
-      if (user === "Admin") {
-        let password = prompt("Password", "");
-
-        if (password === "" || password === null) {
-          alert("Cancelled.");
-        } else if (password === "TheMaster") {
-          alert("Welcome!");
-        } else {
-          alert("Wrong password.");
-        }
-      } else if (user === "" || user === null) {
-        alert("Cancelled.");
-      } else {
-        alert("I don't know you.");
-      }
-
-      function checkAgeTernary(age) {
-        return age > 18 ? true : confirm("Did your parents allow you?");
-      }
-
-      function checkAgeOr(age) {
-        return age > 18 || confirm("Did your parents allow you?");
-      }
-
-      function getMinWithIf(a, b) {
-        if (a < b) {
-          return a;
-        }
-
-        return b;
-      }
-
-      function getMinTernary(a, b) {
-        return a < b ? a : b;
-      }
-
-      function getPow(x, n) {
-        if (n >= 1) {
-          let result = x;
-          for (let i = 1; i < n; i++) {
-            result *= x;
-          }
-          return result;
-        }
-
-        return alert("n must be 1 or greater.");
-      }
-    </script>
-  </body>
+  <body></body>
 </html>
