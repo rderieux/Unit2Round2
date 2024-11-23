@@ -5,7 +5,7 @@ A **statement** is a combination of _expressions_ to communicate 1 full idea.
 **Conditional statement**
 This allows our code to do different things depending on some condition.
 
-In code, a condition is represented by a **boolean expression**
+In code, a conditional is represented by a **boolean expression**
 A boolean expression is an expression that evaluates to a single boolean.
 
 A **comparison operator** compares the two operands and evaluates to a boolean.
@@ -38,6 +38,8 @@ The computer cares about the _type_ of data going in & out.
 Given some input, a function should always return the same output.
 
 A functions **parameters** define the input variables.
+Parameters are _defined_ in the parentheses when we declare a function.
+
 We can pass **arguments** into the function as input when we call the function.
 
 A function **returns** some value as its output.
