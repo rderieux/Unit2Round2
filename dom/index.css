@@ -1,0 +1,14 @@
+.shapes {
+  display: flex;
+  gap: 1ch;
+  flex-wrap: wrap;
+}
+
+.red {
+  background: red;
+}
+
+.small {
+  height: 30px;
+  width: 30px;
+}
